@@ -5,4 +5,4 @@ import { taskRepository } from "../../infrastructure/repositories/taskRepository
 
 const client: Http = httpFake;
 
-export const TaskRepositoryFake: TaskRepository = taskRepository(client);
+export const taskRepositoryFake: TaskRepository = taskRepository(client);
